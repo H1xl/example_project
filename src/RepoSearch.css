@@ -1,0 +1,30 @@
+.input-container {
+    margin: 30px;
+}
+.w-size-400 {
+    width: 400px;
+}
+.card-img-size-200 {
+    height: 200px;
+}
+a {
+    text-decoration: none;
+}
+.transform-center {
+    transform: translateY(calc(50vh - 75px));
+}
+.transform-up {
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(0px);
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    transition-delay: 0.3s;
+}
+
+  
